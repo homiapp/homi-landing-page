@@ -52,8 +52,9 @@
     padding: 11px 20px; background: var(--ink); color: var(--paper);
     font-size: 14px; font-weight: 500; border-radius: 999px;
     border: 1px solid var(--ink); cursor: pointer; transition: transform 0.15s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
-  .btn:hover{ transform: translateY(-1px); }
+  .btn:hover{ transform: translateY(-1px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
   .btn.ghost{ background: transparent; color: var(--ink); border-color: var(--rule); }
   .btn.accent{ background: var(--accent); border-color: var(--accent); color: #fff; }
   .btn .arr{ font-family: 'JetBrains Mono', monospace; font-size: 14px; }
@@ -70,8 +71,8 @@
   }
   .hero h1 em{ font-style: italic; color: var(--accent); font-weight: 360; }
   .hero .lede{
-    font-family: 'Fraunces', serif; font-weight: 360;
-    font-size: 26px; line-height: 1.35; letter-spacing: -0.01em;
+    font-family: 'Inter', sans-serif; font-weight: 360;
+    font-size: 22px; line-height: 1.35; letter-spacing: -0.01em;
     color: var(--ink-2); max-width: 720px; margin-top: 32px;
   }
   .hero .ctas{ margin-top: 36px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
@@ -126,7 +127,7 @@
     border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
   }
   .tier{
-    padding: 40px 32px 32px;
+    padding: 60px 32px 32px;
     border-right: 1px solid var(--rule-soft);
     display: flex; flex-direction: column;
     background: var(--paper); position: relative;
@@ -196,7 +197,7 @@
       <div class="links">
         <a href="#plan">How it works</a>
         <a href="#pricing">Pricing</a>
-        <a class="btn" href="#demo">Book a demo <span class="arr">→</span></a>
+        <a class="btn ghost" href="#demo">Book a demo <span class="arr">→</span></a>
       </div>
     </div>
   </div>
@@ -259,7 +260,7 @@
       <!-- TIER 1 -->
       <div class="tier">
         <div class="tier-tag">Small private</div>
-        <h3>Selective LACs &amp; regional privates.</h3>
+        <h3>LACs &amp; regional privates.</h3>
         <p class="who">Under 7,500 applications a year.</p>
 
         <div class="lead-price">
@@ -285,7 +286,7 @@
       <!-- TIER 2 -->
       <div class="tier featured">
         <div class="tier-tag">Mid-sized institution</div>
-        <h3>Comprehensive privates &amp; mid-tier publics.</h3>
+        <h3>Comprehensive privates &amp; publics.</h3>
         <p class="who">7,500–40,000 applications.</p>
 
         <div class="lead-price">
@@ -355,7 +356,7 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="copy">© 2026 Homi · Built for VPs of Enrollment</div>
+      <div class="copy">© 2026 Homi</div>
       <div class="links">
         <a href="#pricing">Pricing</a>
         <a href="#plan">How it works</a>
