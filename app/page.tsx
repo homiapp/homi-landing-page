@@ -41,7 +41,7 @@ export default function HomePage() {
 
           <div className="flex justify-end">
             <a
-              href="https://calendly.com/homiio"
+              href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3bQf75Ddauut0ZcbDfwAq2WDuQmFlwUiMN0ehx61YcXl2f96aqOSzXV29XNuXeKcl_zRndfH7i"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center justify-center rounded-full px-5 py-2 text-sm font-bold border border-white/10 bg-white/5 transition hover:bg-white/10"
@@ -71,7 +71,7 @@ export default function HomePage() {
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <a
-              href="https://calendly.com/homiio"
+              href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3bQf75Ddauut0ZcbDfwAq2WDuQmFlwUiMN0ehx61YcXl2f96aqOSzXV29XNuXeKcl_zRndfH7i"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center justify-center rounded-full bg-indigo-500 px-6 py-4 text-sm font-bold transition hover:bg-indigo-400"
@@ -293,7 +293,7 @@ export default function HomePage() {
             </p>
 
             <h2 className="mt-6 text-4xl font-bold md:text-5xl">
-              Help prospective students feel at home before they enroll.
+              Help students feel at home before they enroll.
             </h2>
 
             <div className="mt-10 space-y-6">
@@ -343,7 +343,7 @@ export default function HomePage() {
           </p>
 
           <a
-            href="https://calendly.com/homiio"
+            href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3bQf75Ddauut0ZcbDfwAq2WDuQmFlwUiMN0ehx61YcXl2f96aqOSzXV29XNuXeKcl_zRndfH7i"
             target="_blank"
             rel="noopener noreferrer"
             className="group mt-10 inline-flex items-center rounded-full bg-indigo-500 px-8 py-4 font-bold transition hover:bg-indigo-400"
