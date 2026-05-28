@@ -46,7 +46,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="group flex items-center justify-center rounded-full px-5 py-2 text-sm font-bold border border-white/10 bg-white/5 transition hover:bg-white/10"
             >
-              Schedule a Demo
+              Schedule Demo
               <ArrowRight className="ml-2 h-4 w-4 transition group-hover:translate-x-1" />
             </a>
           </div>
@@ -54,14 +54,14 @@ export default function HomePage() {
       </header>
 
       {/* HERO */}
-      <section className="relative mx-auto flex max-w-7xl flex-col items-center px-6 pb-16 pt-24 lg:flex-row lg:gap-16">
+      <section className="relative mx-auto flex max-w-7xl flex-col items-center px-6 pb-16 pt-8 sm:pt-16 lg:flex-row lg:gap-16">
         {/* Left */}
         <div className="max-w-2xl flex-1">
           <div className="mb-6 inline-flex items-center rounded-full border border-indigo-300/20 bg-indigo-300/10 px-4 py-2 text-sm text-indigo-300">
             Informed decisions before May 1
           </div>
 
-          <h1 className="text-5xl font-bold leading-tight tracking-tight md:text-6xl">
+          <h1 className="text-4xl font-bold leading-tight tracking-tight md:text-6xl">
             Turn authentic campus voices into enrollment yield.
           </h1>
 
@@ -76,7 +76,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="group flex items-center justify-center rounded-full bg-indigo-500 px-6 py-4 text-sm font-bold transition hover:bg-indigo-400"
             >
-              Schedule a Demo
+              Schedule Demo
               <ArrowRight className="ml-2 h-4 w-4 transition group-hover:translate-x-1" />
             </a>
 
@@ -88,7 +88,7 @@ export default function HomePage() {
         </div>
 
         {/* Mockup */}
-        <div className="mt-20 flex-1 lg:mt-0">
+        <div className="mt-10 flex-1 lg:mt-0">
           <div className="relative mx-auto max-w-xl rounded-2xl border border-white/10 bg-white/5 p-6 shadow-2xl">
             {/* Top Bar */}
             <div className="mb-6 flex items-center gap-2">
@@ -112,18 +112,22 @@ export default function HomePage() {
               {/* Dark gradient overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
 
+              <div className="absolute top-4 right-4 rounded-full bg-white/10 text-white border border-white/10 px-3 py-1 text-sm backdrop-blur-md">
+                03:48
+              </div>
+
               {/* Play button */}
-              <div className="absolute inset-0 flex items-center justify-center">
+              {/* <div className="absolute inset-0 flex items-center justify-center">
                 <div className="flex h-14 w-14 items-center justify-center rounded-full bg-white/10 backdrop-blur-md border border-white/10">
                   <Play className="h-6 w-6" />
                 </div>
-              </div>
+              </div> */}
 
               {/* Bottom text */}
-              <div className="absolute bottom-6 left-6 right-6 text-white">
-                <p className="text-md text-white/60">Prof. Emily Cruz - Dept. of Economics</p>
+              <div className="absolute bottom-6 left-6 text-white">
+                <p className="text-lg text-white/60">Prof. Emily Cruz</p>
 
-                <p className="text-xl font-bold">
+                <p className="text-2xl sm:text-3xl font-bold">
                   What makes your program unique?
                 </p>
               </div>
@@ -212,7 +216,7 @@ export default function HomePage() {
           </h2>
         </div>
 
-        <div className="mt-20 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           <FeatureCard
             icon={<Video className="h-6 w-6" />}
             title="Easy Recording"
@@ -255,7 +259,7 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div className="mt-20 grid gap-8 md:grid-cols-3">
+          <div className="mt-10 grid gap-8 md:grid-cols-3">
             <StepCard
               number="01"
               title="Capture Authentic Stories"
@@ -330,7 +334,7 @@ export default function HomePage() {
       {/* CTA */}
       <section className="border-t border-white/10 bg-black/30 py-28">
         <div className="mx-auto max-w-5xl px-6 text-center">
-          <h2 className="text-5xl font-bold md:text-6xl">
+          <h2 className="text-4xl font-bold md:text-6xl">
             Show prospective students the people behind your institution.
           </h2>
 
@@ -344,7 +348,7 @@ export default function HomePage() {
             rel="noopener noreferrer"
             className="group mt-10 inline-flex items-center rounded-full bg-indigo-500 px-8 py-4 font-bold transition hover:bg-indigo-400"
           >
-            Schedule a Demo
+            Schedule Demo
             <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
           </a>
         </div>
@@ -455,7 +459,7 @@ function StatCard({
         {label}
       </div>
 
-      <div className="mt-2 text-3xl font-bold">
+      <div className="mt-2 text-2xl sm:text-3xl font-bold">
         {value}
       </div>
     </div>
